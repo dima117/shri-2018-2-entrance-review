@@ -31,10 +31,84 @@ style: |
 
 </div>
 
-## Название раздела
+## Задание 1:<br />найди ошибки
 {:.section}
 
-### Верхний колонтитул
+## Не запускается
+
+## Не открывается попап
+
+## Не отображается график
+
+## Не отображаются метки
+
+## Метки не в Москве
+
+## Неправильный маркер
+
+## Неиспользуемый файл
+
+## Ошибки в Codestyle
+
+## Другие критерии
+
+- readme
+- история коммитов
+
+## Задание 2:<br />найди ошибки
+{:.section}
+
+
+## Контакты 
+{:.contacts}
+
+{% if site.author %}
+
+<figure markdown="1">
+
+### {{ site.author.name }}
+
+{% if site.author.position %}
+{{ site.author.position }}
+{% endif %}
+
+</figure>
+
+{% endif %}
+
+{% if site.author2 %}
+
+<figure markdown="1">
+
+### {{ site.author2.name }}
+
+{% if site.author2.position %}
+{{ site.author2.position }}
+{% endif %}
+
+</figure>
+
+{% endif %}
+
+<!-- разделитель контактов -->
+-------
+
+<!-- left -->
+- {:.skype}dima117a
+- {:.mail}dima117a@yandex-team.ru
+- {:.github}dima117
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Длинная цитата переносится на несколько строк
 {:.blockquote}
