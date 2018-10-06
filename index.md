@@ -193,15 +193,16 @@ objectManager.clusters.options.set('preset', 'islands#greenClusterIcons');
 
 ## Ошибки в Codestyle
 
-установка eslint
+установить eslint
 
 ```
 $ npm install eslint --save-dev
 ```
 
+исправить codestyle
+
 ```js
 {
-    // ...
     "scripts": {
         // ...
         "lint": "eslint --fix \"**/*.js\""
@@ -213,9 +214,9 @@ $ npm install eslint --save-dev
 ## Ошибки в Codestyle
 {:.fullscreen}
 
-.eslintrc
-
 ```js
+// .eslintrc
+
 {
     "rules": {
         "indent": ["error", 4],
