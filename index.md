@@ -42,6 +42,24 @@ style: |
 {:.section}
 
 ## Не запускается
+```
+WARNING in ./src/index.js 4:2-9
+"export 'default' (imported as 'initMap') was not found in './map'
+```
+
+## Не запускается
+```
+WARNING in ./src/index.js 4:2-9
+"export 'default' (imported as 'initMap') was not found in './map'
+```
+
+```js
+// было
+import initMap from "./map";
+
+// стало
+import {initMap} from "./map";
+```
 
 ## Не открывается попап
 
