@@ -179,13 +179,44 @@ objectManager.clusters.options.set('preset', 'islands#greenClusterIcons');
 
 ![](https://jing.yandex-team.ru/files/dima117a/localhost9000_2018-10-06_16-45-47.png){:.img1}
 
+### [https://tech.yandex.ru/maps/jsbox/2.1/placemark_balloon_layout](https://tech.yandex.ru/maps/jsbox/2.1/placemark_balloon_layout)
+
 ## Не отображается график
 
+![](https://jing.yandex-team.ru/files/dima117a/localhost9000_2018-10-06_17-22-02.png){:.img1}
 
+### [http://www.chartjs.org/docs/latest/axes/cartesian/linear.html#axis-range-settings](http://www.chartjs.org/docs/latest/axes/cartesian/linear.html#axis-range-settings)
 
 ## Неиспользуемый файл
 
+![](https://jing.yandex-team.ru/files/dima117a/popup.js__entrance-task-1-2_2018-10-06_17-17-37.png){:.img1}
+
 ## Ошибки в Codestyle
+
+```
+$ npm install eslint --save-dev
+```
+
+.eslintrc
+
+```js
+{
+    "rules": {
+        "indent": ["error", 4],
+        "quotes": ["error", "single"],
+        "no-undef": "error"
+    },
+    "env": { "browser": true },
+    "globals": { "ymaps": true },
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module",
+        "ecmaFeatures": { "experimentalObjectRestSpread": true }
+    }
+}
+```
+
+### [https://eslint.org/docs/user-guide/getting-started](https://eslint.org/docs/user-guide/getting-started)
 
 ## Другие критерии
 
