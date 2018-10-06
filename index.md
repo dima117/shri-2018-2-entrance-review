@@ -202,7 +202,7 @@ objectManager.clusters.options.set('preset', 'islands#greenClusterIcons');
 
 ## Ошибки в Codestyle
 
-<div class="next">
+<div class="next" markdown="1">
 установить [eslint](https://eslint.org/docs/user-guide/getting-started)
 
 ```
@@ -210,7 +210,7 @@ $ npm install eslint --save-dev
 ```
 </div>
 
-<div class="next">
+<div class="next" markdown="1">
 исправить codestyle
 {:.next}
 
