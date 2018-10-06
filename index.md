@@ -74,7 +74,7 @@ import {initMap} from "./map";
 
 ## Не отображается карта
 
-<br/><br/>/public/index.css
+/public/index.css
 
 ```css
 #map {
@@ -138,9 +138,17 @@ loadList().then(data => {
 });
 ```
 
-### https://tech.yandex.ru/maps/doc/jsapi/2.1/ref/reference/ObjectManager-docpage/
+### [https://tech.yandex.ru/maps/doc/jsapi/2.1/ref/reference/ObjectManager-docpage](https://tech.yandex.ru/maps/doc/jsapi/2.1/ref/reference/ObjectManager-docpage/)
 
 ## Метки не в Москве
+
+![](https://jing.yandex-team.ru/files/dima117a/localhost9000_2018-10-06_15-24-52.png){:.img1}
+
+## Метки не в Москве
+
+![](https://jing.yandex-team.ru/files/dima117a/localhost9000_2018-10-06_15-32-46.png)
+
+### [https://tech.yandex.ru/maps/doc/jsapi/2.1/dg/concepts/geoobjects-docpage](https://tech.yandex.ru/maps/doc/jsapi/2.1/dg/concepts/geoobjects-docpage/)
 
 ## Неправильный маркер
 
