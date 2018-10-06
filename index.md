@@ -4,6 +4,7 @@ layout: yandex2
 
 style: |
     /* собственные стили можно писать здесь!! */
+    .img1 { margin: 0 auto;}
 
 
 ---
@@ -69,7 +70,7 @@ import {initMap} from "./map";
 ```
 ## Не отображается карта
 
-![](https://jing.yandex-team.ru/files/dima117a/localhost9000_2018-10-06_14-07-38.png)
+![](https://jing.yandex-team.ru/files/dima117a/localhost9000_2018-10-06_14-10-10.png){:.img1}
 
 ## Не открывается попап
 
