@@ -205,7 +205,7 @@ $ npm install eslint --save-dev
 {
     "scripts": {
         // ...
-        "lint": "eslint --fix \"**/*.js\""
+        "lint": "eslint --fix \"src/**/*.js\""
     }
     // ...
 }
