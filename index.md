@@ -52,7 +52,7 @@ WARNING in ./src/index.js 4:2-9
 WARNING in ./src/index.js 4:2-9
 "export 'default' (imported as 'initMap') was not found in './map'
 ```
-/src/index.js
+<br/><br/>/src/index.js
 
 ```js
 // было
