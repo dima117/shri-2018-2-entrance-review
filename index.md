@@ -41,13 +41,19 @@ style: |
 ## Ошибки
 {:.section}
 
-## Не запускается
+## Приложение не запускается
+
+<br/>
+
 ```
 WARNING in ./src/index.js 4:2-9
 "export 'default' (imported as 'initMap') was not found in './map'
 ```
 
-## Не запускается
+## Приложение не запускается
+
+<br/>
+
 ```
 WARNING in ./src/index.js 4:2-9
 "export 'default' (imported as 'initMap') was not found in './map'
@@ -61,6 +67,9 @@ import initMap from "./map";
 // стало
 import {initMap} from "./map";
 ```
+## Не отображается карта
+
+![](https://jing.yandex-team.ru/files/dima117a/localhost9000_2018-10-06_14-07-38.png)
 
 ## Не открывается попап
 
