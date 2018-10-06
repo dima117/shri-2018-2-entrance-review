@@ -48,8 +48,6 @@ style: |
 - [Chart.js](www.chartjs.org)
 - [Webpack](https://webpack.js.org)
 
-## Технические детали
-
 ## Ошибки
 {:.section}
 
