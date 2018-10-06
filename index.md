@@ -82,8 +82,61 @@ import {initMap} from "./map";
 }
 ```
 
+## Структура проекта
+
+```
+├─ public
+│   ├─ index.css
+│   └─ index.html
+├─ src
+│   ├─ api.js
+│   ├─ chart.js
+│   ├─ details.js
+│   ├─ filter.js
+│   ├─ index.js
+│   ├─ map.js
+│   ├─ mappers.js
+│   └─ popup.js
+│  ...
+```
+
 ## Не отображаются метки
 
+![](https://jing.yandex-team.ru/files/dima117a/localhost9000_2018-10-06_14-56-50.png){:.img1}
+
+## Не отображаются метки
+
+![](https://jing.yandex-team.ru/files/dima117a/localhost9000_2018-10-06_15-06-04.png){:.img1}
+
+## Не отображаются метки
+
+/src/map.js
+
+```js
+const objectManager = new ymaps.ObjectManager({ ... });
+// ...
+
+loadList().then(data => {
+    objectManager.add(data);
+});
+```
+
+
+## Не отображаются метки
+
+/src/map.js
+
+```js
+const objectManager = new ymaps.ObjectManager({ ... });
+// ...
+
+loadList().then(data => {
+    objectManager.add(data);
+    
+    // добавляем objectManager на карту
+    myMap.geoObjects.add(objectManager);
+});
+```
 
 ## Метки не в Москве
 
