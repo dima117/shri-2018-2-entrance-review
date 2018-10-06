@@ -157,6 +157,8 @@ loadList().then(data => {
 
 ## Неправильный маркер
 
+/src/map.js
+
 ```js
 const objectManager = new ymaps.ObjectManager({
     clusterIconLayout: 'default#pieChart',
