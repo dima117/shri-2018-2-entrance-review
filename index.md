@@ -169,6 +169,8 @@ const objectManager = new ymaps.ObjectManager({
 objectManager.clusters.options.set('preset', 'islands#greenClusterIcons');
 ```
 
+### [https://tech.yandex.ru/maps/jsbox/2.1/clusterer_pie_chart](https://tech.yandex.ru/maps/jsbox/2.1/clusterer_pie_chart)
+
 ## Не открывается попап
 
 ## Не отображается график
