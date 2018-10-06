@@ -212,7 +212,6 @@ $ npm install eslint --save-dev
 
 <div class="next" markdown="1">
 исправить codestyle
-{:.next}
 
 ```js
 {
