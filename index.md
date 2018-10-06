@@ -113,22 +113,23 @@ import {initMap} from "./map";
 /src/map.js
 
 ```js
-const objectManager = new ymaps.ObjectManager({ ... });
-// ...
+const objectManager = new ymaps.ObjectManager({
+    // ...
+});
 
 loadList().then(data => {
     objectManager.add(data);
 });
 ```
 
-
 ## Не отображаются метки
 
 /src/map.js
 
 ```js
-const objectManager = new ymaps.ObjectManager({ ... });
-// ...
+const objectManager = new ymaps.ObjectManager({
+    // ...
+});
 
 loadList().then(data => {
     objectManager.add(data);
@@ -146,11 +147,25 @@ loadList().then(data => {
 
 ## Метки не в Москве
 
-![](https://jing.yandex-team.ru/files/dima117a/localhost9000_2018-10-06_15-32-46.png)
+![](https://jing.yandex-team.ru/files/dima117a/localhost9000_2018-10-06_15-32-46.png){:.img1}
 
 ### [https://tech.yandex.ru/maps/doc/jsapi/2.1/dg/concepts/geoobjects-docpage](https://tech.yandex.ru/maps/doc/jsapi/2.1/dg/concepts/geoobjects-docpage/)
 
 ## Неправильный маркер
+
+![](https://jing.yandex-team.ru/files/dima117a/localhost9000_2018-10-06_15-37-27.png){:.img1}
+
+## Неправильный маркер
+
+```js
+const objectManager = new ymaps.ObjectManager({
+    clusterIconLayout: 'default#pieChart',
+    // ...
+});
+
+// эту строчку нужно удалить
+objectManager.clusters.options.set('preset', 'islands#greenClusterIcons');
+```
 
 ## Не открывается попап
 
