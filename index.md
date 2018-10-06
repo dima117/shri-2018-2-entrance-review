@@ -4,7 +4,7 @@ layout: yandex2
 
 style: |
     /* собственные стили можно писать здесь!! */
-    .img1 { margin: 0 auto;}
+    .img1 { margin: 0 auto; display: block; }
 
 
 ---
