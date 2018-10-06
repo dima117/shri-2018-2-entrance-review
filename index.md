@@ -4,7 +4,7 @@ layout: yandex2
 
 style: |
     /* собственные стили можно писать здесь!! */
-    .img1 { margin: 0 auto; display: block; }
+    .img1 { margin: -60px auto 0; display: block; }
 
 
 ---
@@ -59,7 +59,7 @@ WARNING in ./src/index.js 4:2-9
 WARNING in ./src/index.js 4:2-9
 "export 'default' (imported as 'initMap') was not found in './map'
 ```
-<br/><br/>/src/index.js
+<br/>/src/index.js
 
 ```js
 // было
