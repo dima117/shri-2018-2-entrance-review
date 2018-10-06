@@ -138,6 +138,8 @@ loadList().then(data => {
 });
 ```
 
+### https://tech.yandex.ru/maps/doc/jsapi/2.1/ref/reference/ObjectManager-docpage/
+
 ## Метки не в Москве
 
 ## Неправильный маркер
