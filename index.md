@@ -173,6 +173,12 @@ objectManager.clusters.options.set('preset', 'islands#greenClusterIcons');
 
 ## Не открывается попап
 
+![](https://jing.yandex-team.ru/files/dima117a/localhost9000_2018-10-06_16-43-08.png){:.img1}
+
+## Не открывается попап
+
+![](https://jing.yandex-team.ru/files/dima117a/localhost9000_2018-10-06_16-45-47.png){:.img1}
+
 ## Не отображается график
 
 
