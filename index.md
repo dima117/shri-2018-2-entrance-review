@@ -260,7 +260,7 @@ $ npm install eslint --save-dev
 ## Элементы управления
 {:.fullscreen}
 
-![](pictures/layout.png)
+![](pictures/controls.png)
 
 ## Предметная область
 
