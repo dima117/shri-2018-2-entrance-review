@@ -383,12 +383,13 @@ gulp.task('sass', function () {
 -------
 
 <!-- left -->
+- {:.telegram}dima117a
+- {:.skype}dima117a
+
+<!-- right -->
 - {:.mail}dima117a@yandex-team.ru
 - {:.github}dima117
 
-<!-- right -->
-- {:.skype}dima117a
-- {:.telegram}dima117a
 
 <!-- 
 
