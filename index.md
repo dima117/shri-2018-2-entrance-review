@@ -255,12 +255,17 @@ $ npm install eslint --save-dev
 ## Две версии макетов
 {:.fullscreen}
 
-![](pictures/layout.png)
+![](pictures/layout.png){:.img1}
 
 ## Элементы управления
 {:.fullscreen}
 
-![](pictures/controls.png)
+![](pictures/controls.png){:.img1}
+
+## Кроссбраузерность
+{:.fullscreen}
+
+![](pictures/browsers-01.png){:.img1}
 
 ## Предметная область
 
