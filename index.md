@@ -270,23 +270,85 @@ $ npm install eslint --save-dev
 ## Как сверстать
 {:.section}
 
-## Компоновка страницы
+## [DEMO:<br/>Компоновка страницы](#)
+{:.shout}
 
-## Листание
+## [DEMO:<br/>Листание](#)
+{:.shout}
 
-## Анимация попапа
+## [DEMO:<br/>Модальное окно](#)
+{:.shout}
 
-## Слайдер
+## [DEMO:<br/>Слайдер](#)
+{:.shout}
 
-## Крутилка
+## [DEMO:<br/>Крутилка](#)
+{:.shout}
 
-## Критерии
+## Дополнительные критерии
+{:.section}
 
-- соответствие макетам
-- кроссбраузерность
-- качество кода
-- инфраструктура
+## Организация и оформление кода
 
+1. {:.next}Разбит ли код на части и насколько логично разбиение
+2. {:.next}Одинаковое оформление кода
+
+```
+
+
+    $ npm install -g stylelint
+
+    $ stylelint "foo/**/*.scss" --syntax scss
+```
+{:.next}
+
+## Автоматизация
+
+1. {:.next}autoprefixer
+2. {:.next}препроцессоры
+  - константы
+  - циклы
+  - сборка (`@import`)
+3. {:.next}оптимизация (dev/prod режимы)
+
+
+## NPM INSTALL
+{:.fullscreen}
+
+```
+
+
+
+$ npm install --save-dev gulp
+$ npm install --save-dev gulp-autoprefixer
+$ npm install --save-dev gulp-sass
+$ npm install --save-dev gulp-clean-css
+```
+
+## GULPFILE
+{:.fullscreen}
+
+```js
+// gulpfile.js
+
+const gulp = require('gulp');
+const sass = require('gulp-sass');
+const autoprefixer = require('gulp-autoprefixer');
+const cleanCss = require('gulp-clean-css');
+
+gulp.task('sass', function () {
+  return gulp.src('./sass/**/*.scss')
+    .pipe(sass())
+    .pipe(autoprefixer({
+      browsers: ['last 2 versions']
+    }))
+    .pipe(cleanCss())
+    .pipe(gulp.dest('./css'));
+});
+```
+
+## Вопросы?
+{:.section}
 
 ## Контакты 
 {:.contacts}
