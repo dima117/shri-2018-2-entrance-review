@@ -386,8 +386,9 @@ gulp.task('sass', function () {
 - {:.mail}dima117a@yandex-team.ru
 - {:.github}dima117
 
-- {:.telegram}dima117a
+<!-- right -->
 - {:.skype}dima117a
+- {:.telegram}dima117a
 
 <!-- 
 
