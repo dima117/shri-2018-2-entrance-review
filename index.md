@@ -252,6 +252,16 @@ $ npm install eslint --save-dev
 ## Задание 2:<br />сверстай макет
 {:.section}
 
+## Две версии макетов
+{:.fullscreen}
+
+![](pictures/layout.png)
+
+## Элементы управления
+{:.fullscreen}
+
+![](pictures/layout.png)
+
 ## Предметная область
 
 ## Технические требования
