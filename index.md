@@ -268,19 +268,19 @@ $ npm install eslint --save-dev
 ## Как сверстать
 {:.section}
 
-## [Пример:<br/>компоновка страницы](#)
+## [Пример:<br/>компоновка страницы](https://dima117.github.io/shri-2018-2-entrance-review-examples/layout.html)
 {:.shout}
 
-## [Пример: листание](#)
+## [Пример: <br/>разбивка на страницы](https://dima117.github.io/shri-2018-2-entrance-review-examples/pagination.html)
 {:.shout}
 
-## [Пример: модальное окно](#)
+## [Пример: модальное окно](https://dima117.github.io/shri-2018-2-entrance-review-examples/popup.html)
 {:.shout}
 
-## [Пример: слайдер](#)
+## [Пример: слайдер](https://dima117.github.io/shri-2018-2-entrance-review-examples/range.html)
 {:.shout}
 
-## [Пример: крутилка](#)
+## [Пример: крутилка](https://dima117.github.io/shri-2018-2-entrance-review-examples/circle.html)
 {:.shout}
 
 ## Дополнительные критерии
