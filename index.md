@@ -77,7 +77,7 @@ import {initMap} from "./map";
 ```
 ## Не отображается карта
 
-![](https://jing.yandex-team.ru/files/dima117a/localhost9000_2018-10-06_14-10-10.png){:.img1}
+![](pictures/no-map01.png){:.img1}
 
 ## Не отображается карта
 
@@ -109,11 +109,11 @@ import {initMap} from "./map";
 
 ## Не отображаются метки
 
-![](https://jing.yandex-team.ru/files/dima117a/localhost9000_2018-10-06_14-56-50.png){:.img1}
+![](pictures/no-points01.png){:.img1}
 
 ## Не отображаются метки
 
-![](https://jing.yandex-team.ru/files/dima117a/localhost9000_2018-10-06_15-06-04.png){:.img1}
+![](pictures/no-points02.png){:.img1}
 
 ## Не отображаются метки
 
@@ -150,17 +150,17 @@ loadList().then(data => {
 
 ## Метки не в Москве
 
-![](https://jing.yandex-team.ru/files/dima117a/localhost9000_2018-10-06_15-24-52.png){:.img1}
+![](pictures/no-moscow01.png){:.img1}
 
 ## Метки не в Москве
 
-![](https://jing.yandex-team.ru/files/dima117a/localhost9000_2018-10-06_15-32-46.png){:.img1}
+![](pictures/no-moscow02.png){:.img1}
 
 ### [https://tech.yandex.ru/maps/doc/jsapi/2.1/dg/concepts/geoobjects-docpage](https://tech.yandex.ru/maps/doc/jsapi/2.1/dg/concepts/geoobjects-docpage/)
 
 ## Неправильный маркер
 
-![](https://jing.yandex-team.ru/files/dima117a/localhost9000_2018-10-06_15-37-27.png){:.img1}
+![](pictures/invalid-marker01.png){:.img1}
 
 ## Неправильный маркер
 
@@ -180,23 +180,23 @@ objectManager.clusters.options.set('preset', 'islands#greenClusterIcons');
 
 ## Не открывается попап
 
-![](https://jing.yandex-team.ru/files/dima117a/localhost9000_2018-10-06_16-43-08.png){:.img1}
+![](pictures/no-popup01.png){:.img1}
 
 ## Не открывается попап
 
-![](https://jing.yandex-team.ru/files/dima117a/localhost9000_2018-10-06_16-45-47.png){:.img1}
+![](pictures/no-popup02.png){:.img1}
 
 ### [https://tech.yandex.ru/maps/jsbox/2.1/placemark_balloon_layout](https://tech.yandex.ru/maps/jsbox/2.1/placemark_balloon_layout)
 
 ## Не отображается график
 
-![](https://jing.yandex-team.ru/files/dima117a/localhost9000_2018-10-06_17-22-02.png){:.img1}
+![](pictures/no-chart01.png){:.img1}
 
 ### [http://www.chartjs.org/docs/latest/axes/cartesian/linear.html#axis-range-settings](http://www.chartjs.org/docs/latest/axes/cartesian/linear.html#axis-range-settings)
 
 ## Неиспользуемый файл
 
-![](https://jing.yandex-team.ru/files/dima117a/popup.js__entrance-task-1-2_2018-10-06_17-17-37.png){:.img1}
+![](pictures/unused-file.png){:.img1}
 
 ## Ошибки в Codestyle
 
